@@ -1,0 +1,7 @@
+CREATE DATABASE CAB_BOOKING;
+
+USE CAB_BOOKING;
+
+CREATE TABLE CAB_MASTER(cid int,regno varchar(20),cab_type varchar(20),cab_desc varchar(100),nos int,owner varchar(20),driver varchar(20),ownadd varchar(50),mob int);
+
+CREATE TABLE BOOKINGS (bid int , cid int, cust_name varchar(50), cust_mob varchar(15), pickup_location varchar(100), destination varchar(100),Bill float(10,2));
